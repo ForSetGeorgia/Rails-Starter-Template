@@ -2,14 +2,14 @@
 
 This Rails 4 Starter Template is meant as a foundation upon which Rails applications can be built quickly and sustainably. It uses the following technologies:
 
-- Ruby: 2.3
-- Rails: 4.2.6
+- Ruby: 2.4
+- Rails: 4.2.10
 - Authentication: Devise 3.5.6
 - Authorization: CanCanCan 1.10.1
 - Model/Data Translations: Globalize 5.0
 - Responsive Design: Twitter Bootstrap Rails 3.2.0
 - Error Emails: Exception Notification 4.1
-- Database: MySQL (mysql2 0.3.18)
+- Database: MySQL (mysql2 0.4.9)
 - Deploy: Mina 0.3.8
 - Rails Server: Puma 3.4.0
 - HTML Server: Nginx
