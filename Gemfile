@@ -3,11 +3,13 @@ source 'https://rubygems.org'
 #####################################################################
 ##################### Starter Template Gems #########################
 
+ruby "2.4.2"
+
 # The framework! :)
-gem 'rails', '4.2.7'
+gem 'rails', '4.2.10'
 
 # Connection to MySql database
-gem 'mysql2', '~> 0.4.5'
+gem 'mysql2', '~> 0.4.9'
 
 # SCSS parsing in asset pipeline
 gem 'sass-rails', '~> 5.0'
@@ -19,16 +21,16 @@ gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails', '~> 4.0.3'
 
 # Uses caching to improve performance for internal page changes
-gem 'turbolinks', '~> 2.5.3'
+#gem 'turbolinks', '~> 2.5.3'
 
 # JSON creation
 gem 'jbuilder', '~> 2.0'
 
 # Stores project secrets in environment variables
-gem 'dotenv-rails', '~> 2.1.1'
+gem 'dotenv-rails', '~> 2.2.1'
 
 # Makes compatibility easier for jQuery and turbolinks
-gem 'jquery-turbolinks', '~> 2.1.0'
+#gem 'jquery-turbolinks', '~> 2.1.0'
 
 # Makes jQuery UI (like jQuery datepicker) available
 gem 'jquery-ui-rails', '~> 5.0.3'
@@ -61,10 +63,10 @@ gem 'bootstrap-sass', '~> 3.3.5'
 gem 'font-awesome-sass', '~> 4.4.0'
 
 # Ruby server
-gem 'puma', '~> 3.6.0'
+gem 'puma', '~> 3.10.0'
 
 # sends updates to google analytics when turbolinks changes page
-gem 'google-analytics-turbolinks', '~> 0.0.4'
+#gem 'google-analytics-turbolinks', '~> 0.0.4'
 
 # Sends email when exception or error is thrown
 gem 'exception_notification', '~> 4.2', '>= 4.2.1'
@@ -105,7 +107,7 @@ group :development do
 
   # make dev environment faster
   gem 'rails-dev-boost', '~> 0.3.0'
-  gem 'rb-fsevent', '>= 0.9.1' # needed for mac
+#  gem 'rb-fsevent', '>= 0.9.1' # needed for mac
   gem 'rb-inotify', '~> 0.9.7' # needed for linux
 
   # show model attributes (table fields) in model
