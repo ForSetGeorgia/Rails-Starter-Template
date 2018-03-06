@@ -171,10 +171,6 @@ RSpec.describe 'User', type: :feature do
 
       open_email(content_manager_user.email)
 
-      # Check that email contains JumpStart slogan (in the mailer layout)
-      expect(current_email)
-        .to have_content 'JumpStart Georgia - We communicate data better!'
-
       expect(current_email.from).to eq([ENV['APPLICATION_FEEDBACK_FROM_EMAIL']])
 
       current_email.click_link 'Change my password'

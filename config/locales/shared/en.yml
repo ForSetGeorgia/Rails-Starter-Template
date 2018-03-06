@@ -20,8 +20,8 @@ en:
     common:
       account: Account
       actions: Actions
-      jumpstart:
-        slogan: JumpStart Georgia - Informing Communities with Data and Design
+      developer:
+        slogan: ForSet - Communicating With Data
       name: Rails Starter Template
       description: This is a description of the project that will appear in the meta tags.
     links:
