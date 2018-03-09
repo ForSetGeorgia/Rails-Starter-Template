@@ -24,6 +24,9 @@ ka:
         slogan: ForSet - Communicating With Data
       name: Rails Starter Template
       description: This is a description of the project that will appear in the meta tags.
+      'no': 'არა'
+      'yes': 'დიახ'
+      show_title: "%{model}: %{title}"
     links:
       page_contents: გვერდის ტექსტის რედაქტირება
       admin: ადმინის სექცია
